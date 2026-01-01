@@ -1,5 +1,3 @@
-const cors = require("cors");
-const express = require("express");
 const path = require("path");
 const { readJson, loadLabels, saveLabels } = require("./store");
 const { validateScorePayload, aggregate } = require("./score");
@@ -50,3 +48,6 @@ const port = Number(process.env.PORT ?? 4070);
 app.listen(port, () => {
   console.log(`llm-rubric-scorecard on http://localhost:${port}`);
 });
+const express = require('express');
+const router = express.Router();
+// Base scorecard scoring API infrastructure route definitions
