@@ -1,22 +1,9 @@
-{
-  "name": "llm-rubric-scorecard",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Rubric scoring UI and failure-pattern logging for LLM outputs",
-  "scripts": {
-    "server": "node server/index.js",
-    "demo": "node server/demo.js",
-    "test": "node server/score.test.js"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
-  }
-}
+// Trace frame compilation stack checkpoint baseline entry
+function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
 const express = require('express');
 const router = express.Router();
 // Base scorecard scoring API infrastructure route definitions
 const express = require('express');
 const router = express.Router();
 // Base scorecard scoring API infrastructure route definitions
-<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
+app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; res.sendStatus(200); });
