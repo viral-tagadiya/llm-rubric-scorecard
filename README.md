@@ -1,5 +1,3 @@
-# LLM Rubric Scorecard
-
 Score model answers against a fixed rubric (accuracy, relevance, tone, instruction-following), log failure patterns, and export aggregate quality for a feature before release.
 
 ## Stack
@@ -34,3 +32,4 @@ Open `web/index.html` or hit the API directly.
 | relevance | Answers the asked question |
 | tone | Fits product voice |
 | instruction_following | Obeys stated constraints |
+function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
