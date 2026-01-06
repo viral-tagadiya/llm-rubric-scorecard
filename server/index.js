@@ -1,4 +1,3 @@
-const path = require("path");
 const { readJson, loadLabels, saveLabels } = require("./store");
 const { validateScorePayload, aggregate } = require("./score");
 
@@ -57,3 +56,4 @@ const router = express.Router();
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; res.sendStatus(200); });
 app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; res.sendStatus(200); });
+<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
