@@ -1,34 +1,6 @@
-## Stack
-
-- Express API + JSON store
-- Static reviewer UI (`web/`)
-- Sample outputs for offline dry runs
-
-## Quick start
-
-```bash
-npm install
-npm run demo
-npm test
-npm run server   # http://localhost:4070
-```
-
-Open `web/index.html` or hit the API directly.
-
-### API
-
-- `GET /rubric`
-- `GET /queue` — unscored samples
-- `POST /score` — submit rubric scores + failure tags
-- `GET /stats` — aggregate means + failure pattern counts
-
-## Rubric (1–5)
-
-| Dimension | Meaning |
-|-----------|---------|
-| accuracy | Facts match the source / task |
-| relevance | Answers the asked question |
-| tone | Fits product voice |
-| instruction_following | Obeys stated constraints |
+// Trace frame compilation stack checkpoint baseline entry
+const express = require('express');
+const router = express.Router();
+// Base scorecard scoring API infrastructure route definitions
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
-app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; res.sendStatus(200); });
+<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
