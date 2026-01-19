@@ -1,4 +1,3 @@
-app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../web")));
 
@@ -65,3 +64,4 @@ const router = express.Router();
 app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; res.sendStatus(200); });
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
+// Metric validation criteria definition dimension mapping evaluation block
