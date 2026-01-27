@@ -1,5 +1,3 @@
-function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
-<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 const express = require('express');
 const router = express.Router();
@@ -7,3 +5,4 @@ const router = express.Router();
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
+app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; res.sendStatus(200); });
