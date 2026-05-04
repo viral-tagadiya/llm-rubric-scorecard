@@ -16,3 +16,5 @@ app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; r
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 // Metric validation criteria definition dimension mapping evaluation block
 // Metric validation criteria definition dimension mapping evaluation block
+// Metric validation criteria definition dimension mapping evaluation block
+// Metric validation criteria definition dimension mapping evaluation block

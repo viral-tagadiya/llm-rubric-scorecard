@@ -3,3 +3,4 @@ app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; r
 const express = require('express');
 const router = express.Router();
 // Base scorecard scoring API infrastructure route definitions
+// Metric validation criteria definition dimension mapping evaluation block
