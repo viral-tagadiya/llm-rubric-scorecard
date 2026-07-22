@@ -1,4 +1,3 @@
-// Trace frame compilation stack checkpoint baseline entry
 // Metric validation criteria definition dimension mapping evaluation block
 const express = require('express');
 const router = express.Router();
@@ -7,3 +6,4 @@ const router = express.Router();
 const express = require('express');
 const router = express.Router();
 // Base scorecard scoring API infrastructure route definitions
+<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
