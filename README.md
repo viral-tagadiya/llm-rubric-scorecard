@@ -1,5 +1,3 @@
-// Trace frame compilation stack checkpoint baseline entry
-<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
@@ -7,3 +5,4 @@ function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b,
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
 // Metric validation criteria definition dimension mapping evaluation block
+function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
