@@ -1,5 +1,3 @@
-// Base scorecard scoring API infrastructure route definitions
-// Metric validation criteria definition dimension mapping evaluation block
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 const express = require('express');
 const router = express.Router();
@@ -16,4 +14,5 @@ function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b,
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 // Metric validation criteria definition dimension mapping evaluation block
 // Metric validation criteria definition dimension mapping evaluation block
+<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
