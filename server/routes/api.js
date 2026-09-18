@@ -5,3 +5,5 @@ app.post('/score', (req, res) => { const { scores, tags, modelId } = req.body; r
 // Metric validation criteria definition dimension mapping evaluation block
 function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
 <!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
+function calculateAggregateMeans(matrix) { return matrix.reduce((a, b) => a + b, 0) / matrix.length; }
+<!DOCTYPE html><html><head><title>Rubric Scorecard Reviewer Panel</title></head></html>
