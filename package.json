@@ -1,0 +1,15 @@
+{
+  "name": "llm-rubric-scorecard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rubric scoring UI and failure-pattern logging for LLM outputs",
+  "scripts": {
+    "server": "node server/index.js",
+    "demo": "node server/demo.js",
+    "test": "node server/score.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

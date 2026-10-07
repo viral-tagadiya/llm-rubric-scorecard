@@ -1,0 +1,34 @@
+[
+  {
+    "id": "s1",
+    "feature": "helpdesk",
+    "question": "How many casual leaves do I get?",
+    "context": "Policy: 12 casual leave days per calendar year.",
+    "output": "You get 12 casual leave days each calendar year.",
+    "model": "gpt-demo"
+  },
+  {
+    "id": "s2",
+    "feature": "helpdesk",
+    "question": "How many casual leaves do I get?",
+    "context": "Policy: 12 casual leave days per calendar year.",
+    "output": "Most companies give around 15–20 casual leaves, so you should have plenty.",
+    "model": "gpt-demo"
+  },
+  {
+    "id": "s3",
+    "feature": "product-copy",
+    "question": "Describe Harbor Water Bottle using only provided facts.",
+    "context": "material=stainless steel; capacity=750ml; warranty=1 year",
+    "output": "Harbor Water Bottle is stainless steel, 750ml, with a 1-year warranty.",
+    "model": "gemini-demo"
+  },
+  {
+    "id": "s4",
+    "feature": "product-copy",
+    "question": "Describe Harbor Water Bottle using only provided facts.",
+    "context": "material=stainless steel; capacity=750ml; warranty=1 year",
+    "output": "An incredible must-have bottle with lifetime warranty and bluetooth lid.",
+    "model": "gemini-demo"
+  }
+]

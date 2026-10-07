@@ -1,0 +1,32 @@
+{
+  "dimensions": [
+    {
+      "id": "accuracy",
+      "label": "Accuracy",
+      "description": "Facts match the source context or known product rules."
+    },
+    {
+      "id": "relevance",
+      "label": "Relevance",
+      "description": "Response addresses the user question directly."
+    },
+    {
+      "id": "tone",
+      "label": "Tone",
+      "description": "Voice matches the product (clear, professional, not hype)."
+    },
+    {
+      "id": "instruction_following",
+      "label": "Instruction following",
+      "description": "Obeys constraints such as length, format, or banned claims."
+    }
+  ],
+  "failureTags": [
+    "hallucinated_fact",
+    "missed_constraint",
+    "wrong_tone",
+    "incomplete_answer",
+    "off_topic",
+    "unsafe_advice"
+  ]
+}
